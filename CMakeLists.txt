@@ -3,10 +3,11 @@ project(cuda-v-checker LANGUAGES CXX)
 
 add_executable(cuda-v-checker src/cpp/main.cpp)
 
-# Add cmake/find to module path for Find*.cmake scripts
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/find")
+file(GLOB FIND_FILES "${CMAKE_CURRENT_SOURCE_DIR}/cmake/find/*.cmake")
+foreach(find_file ${FIND_FILES})
+    include(${find_file})
+endforeach()
 
-# Include all .cmake files from cmake directory
 file(GLOB CMAKE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/cmake/*.cmake")
 foreach(cmake_file ${CMAKE_FILES})
     include(${cmake_file})
