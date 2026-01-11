@@ -1,3 +1,6 @@
+# from Pytorch, by Google
+# https://github.com/pytorch/pytorch/blob/main/cmake/Modules_CUDA_fix/FindCUDNN.cmake
+
 # Find the CUDNN libraries
 #
 # The following variables are optionally searched for defaults
