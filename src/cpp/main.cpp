@@ -2,8 +2,10 @@
 // Created by changjoon-lee on 1/5/26.
 //
 
-#include <cuda_runtime.h>
 #include <iostream>
+#include <cuda_runtime.h>
+#include <cudnn.h>
+#include "NvInfer.h"
 
 int main() {
   int deviceCount = 0;
