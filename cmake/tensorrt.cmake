@@ -13,5 +13,3 @@ if (TensorRT_FOUND)
 else ()
     message(FATAL_ERROR "TensorRT not found")
 endif ()
-
-
