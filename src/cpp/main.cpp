@@ -5,6 +5,7 @@
 #include <cuda_runtime.h>
 #include <cudnn.h>
 #include <NvInfer.h>
+#include <NvInferVersion.h>
 #include <iostream>
 
 int main() {

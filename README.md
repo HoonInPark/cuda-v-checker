@@ -1,4 +1,4 @@
-# what is it for?
+# What is it for?
 It is for C++ projects, needed high performance TensorRT inference.
 Such as realtime machine vision. 
 Main problem to solve with this project is the issue that inference 
