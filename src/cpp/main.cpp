@@ -1,13 +1,5 @@
-//
-// Created by changjoon-lee on 1/5/26.
-//
-
-#include <cuda_runtime.h>
-#include <cudnn.h>
-#include <NvInfer.h>
-#include <NvInferVersion.h>
 #include <iostream>
 
-int main() {
+int main(int argc, char **argv) {
   return 0;
 }
