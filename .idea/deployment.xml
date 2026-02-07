@@ -2,32 +2,10 @@
 <project version="4">
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="Remote Host (9014a9e7-e5dd-429b-b874-b07d70a8b04b)">
+      <paths name="Remote Host (979e238e-adb7-46de-9e47-d2b145e49129)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/tmp.DdoiiVFdM3/cuda-v-checker" local="$PROJECT_DIR$" />
-          </mappings>
-          <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
-            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
-          </excludedPaths>
-        </serverdata>
-      </paths>
-      <paths name="Remote Host (bb101c6f-123f-420d-b988-eacedc0b53fc)">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/tmp/tmp.vj6rsZtJUq/cuda-v-checker" local="$PROJECT_DIR$" />
-          </mappings>
-          <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
-            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
-          </excludedPaths>
-        </serverdata>
-      </paths>
-      <paths name="remote-cuda-dev (5d045521-1349-4cea-8d54-3c0ee05ce076)">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/tmp/tmp.lciTwso8Bk/cuda-v-checker" local="$PROJECT_DIR$" />
+            <mapping deploy="/workspace/cuda-v-checker" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
